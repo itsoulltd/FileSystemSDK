@@ -35,6 +35,7 @@ public protocol IFolder: NSObjectProtocol{
 }
 
 @objc(Folder)
+@objcMembers
 open class Folder: NSObject, FileManagerDelegate, IFolder {
     
     fileprivate var defaultName = "untitled folder"

@@ -21,6 +21,7 @@ public protocol IDocumentMetadata: NSObjectProtocol{
 }
 
 @objc(DocumentMetadata)
+@objcMembers
 open class DocumentMetadata: NGObject, IDocumentMetadata{
     
     var URL: Foundation.URL!
@@ -134,6 +135,7 @@ public protocol IFileProgress: NSObjectProtocol{
 }
 
 @objc(File)
+@objcMembers
 open class File: NGObject, IFile {
     
     //MARK: Properties
@@ -495,7 +497,7 @@ extension File: ISecureFile{
         return endResult as Data
     }
     
-    public func decrypted(bufferSize size: Int = 1024, progress: IFileProgress?, decrypt: ((Data) -> Data)?, completionHandler: @escaping (Data) -> Void) {
+    @objc public func decrypted(bufferSize size: Int = 1024, progress: IFileProgress?, decrypt: ((Data) -> Data)?, completionHandler: @escaping (Data) -> Void) {
         DispatchQueue.global().async(execute: { () -> Void in
             var data: Data!
             if let crypto = decrypt{
@@ -510,15 +512,15 @@ extension File: ISecureFile{
         })
     }
     
-    public func encrypted(bufferSize size: Int = 1024, progress: IFileProgress? = nil, encrypt: ((Data) -> Data)?, completionHandler: @escaping (Data) -> Void) {
+    @objc public func encrypted(bufferSize size: Int = 1024, progress: IFileProgress? = nil, encrypt: ((Data) -> Data)?, completionHandler: @escaping (Data) -> Void) {
         decrypted(bufferSize: size, progress: progress, decrypt: encrypt, completionHandler: completionHandler)
     }
     
-    public func secureWriteTo(_ file: IFile, bufferSize: Int, progress: IFileProgress?, encrypt: ((Data) -> Data)?, completionHandler: ((Bool) -> Void)? = nil) {
+    @objc public func secureWriteTo(_ file: IFile, bufferSize: Int, progress: IFileProgress?, encrypt: ((Data) -> Data)?, completionHandler: ((Bool) -> Void)? = nil) {
         (file as! ISecureFile).secureWriteFrom(self, bufferSize: bufferSize, progress: progress, encrypt: encrypt, completionHandler: completionHandler)
     }
     
-    public func secureWriteFrom( _ readfile: IFile, bufferSize: Int = 1024, progress: IFileProgress? = nil, encrypt: ((Data) -> Data)?, completionHandler: ((Bool) -> Void)? = nil) {
+    @objc public func secureWriteFrom( _ readfile: IFile, bufferSize: Int = 1024, progress: IFileProgress? = nil, encrypt: ((Data) -> Data)?, completionHandler: ((Bool) -> Void)? = nil) {
         DispatchQueue.global().async(execute: { () -> Void in
             var result = false
             if let crypto = encrypt{

@@ -16,6 +16,8 @@ public protocol RemoteFileDelegate{
     func didFinishSynch(_ request: HttpWebRequest, file: IFile) -> Void
 }
 
+@objc(RemoteFile)
+@objcMembers
 open class RemoteFile: NGObject{
     
     var request: HttpWebRequest!
