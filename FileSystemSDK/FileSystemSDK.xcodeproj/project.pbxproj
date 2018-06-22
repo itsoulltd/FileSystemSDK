@@ -113,7 +113,6 @@
 		26456F5F1F766DDD003AEF53 /* FileSystemSDK */ = {
 			isa = PBXGroup;
 			children = (
-				26BF226D20DCD495001DAE93 /* RNCryptor */,
 				26456F791F766E53003AEF53 /* CoreDataStack.framework */,
 				26456F781F766E53003AEF53 /* CoreNetworkStack.framework */,
 				26456F6F1F766E43003AEF53 /* DiskUtility */,
@@ -192,6 +191,7 @@
 		26BF228420DCD4A1001DAE93 /* SecureFile */ = {
 			isa = PBXGroup;
 			children = (
+				26BF226D20DCD495001DAE93 /* RNCryptor */,
 				26BF228520DCD4A1001DAE93 /* CryptoFile.h */,
 				26BF228620DCD4A1001DAE93 /* CryptoFile.m */,
 				26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */,
