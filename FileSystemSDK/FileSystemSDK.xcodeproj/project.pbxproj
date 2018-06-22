@@ -31,6 +31,21 @@
 		26456F7E1F766E6D003AEF53 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F761F766E43003AEF53 /* Folder.swift */; };
 		26456F7F1F766E6D003AEF53 /* RemoteFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F771F766E43003AEF53 /* RemoteFile.swift */; };
 		26456F801F766E6D003AEF53 /* ImportWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F6E1F766E43003AEF53 /* ImportWizard.swift */; };
+		26BF227920DCD495001DAE93 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF226E20DCD495001DAE93 /* RNCryptor+Private.h */; };
+		26BF227A20DCD495001DAE93 /* RNCryptor+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF226F20DCD495001DAE93 /* RNCryptor+Swift.h */; };
+		26BF227B20DCD495001DAE93 /* RNCryptor-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227020DCD495001DAE93 /* RNCryptor-Prefix.pch */; };
+		26BF227C20DCD495001DAE93 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227120DCD495001DAE93 /* RNCryptor.h */; };
+		26BF227D20DCD495001DAE93 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227220DCD495001DAE93 /* RNCryptor.m */; };
+		26BF227E20DCD495001DAE93 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227320DCD495001DAE93 /* RNCryptorEngine.h */; };
+		26BF227F20DCD495001DAE93 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227420DCD495001DAE93 /* RNCryptorEngine.m */; };
+		26BF228020DCD495001DAE93 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227520DCD495001DAE93 /* RNDecryptor.h */; };
+		26BF228120DCD495001DAE93 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227620DCD495001DAE93 /* RNDecryptor.m */; };
+		26BF228220DCD495001DAE93 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227720DCD495001DAE93 /* RNEncryptor.h */; };
+		26BF228320DCD495001DAE93 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227820DCD495001DAE93 /* RNEncryptor.m */; };
+		26BF228920DCD4A2001DAE93 /* CryptoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF228520DCD4A1001DAE93 /* CryptoFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26BF228A20DCD4A2001DAE93 /* CryptoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF228620DCD4A1001DAE93 /* CryptoFile.m */; };
+		26BF228B20DCD4A2001DAE93 /* RNCryptorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */; };
+		26BF228C20DCD4A2001DAE93 /* RNCryptorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF228820DCD4A1001DAE93 /* RNCryptorHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +63,21 @@
 		26456F771F766E43003AEF53 /* RemoteFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFile.swift; sourceTree = "<group>"; };
 		26456F781F766E53003AEF53 /* CoreNetworkStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreNetworkStack.framework; sourceTree = "<group>"; };
 		26456F791F766E53003AEF53 /* CoreDataStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataStack.framework; sourceTree = "<group>"; };
+		26BF226E20DCD495001DAE93 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
+		26BF226F20DCD495001DAE93 /* RNCryptor+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Swift.h"; sourceTree = "<group>"; };
+		26BF227020DCD495001DAE93 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
+		26BF227120DCD495001DAE93 /* RNCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptor.h; sourceTree = "<group>"; };
+		26BF227220DCD495001DAE93 /* RNCryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptor.m; sourceTree = "<group>"; };
+		26BF227320DCD495001DAE93 /* RNCryptorEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorEngine.h; sourceTree = "<group>"; };
+		26BF227420DCD495001DAE93 /* RNCryptorEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorEngine.m; sourceTree = "<group>"; };
+		26BF227520DCD495001DAE93 /* RNDecryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNDecryptor.h; sourceTree = "<group>"; };
+		26BF227620DCD495001DAE93 /* RNDecryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNDecryptor.m; sourceTree = "<group>"; };
+		26BF227720DCD495001DAE93 /* RNEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNEncryptor.h; sourceTree = "<group>"; };
+		26BF227820DCD495001DAE93 /* RNEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNEncryptor.m; sourceTree = "<group>"; };
+		26BF228520DCD4A1001DAE93 /* CryptoFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptoFile.h; sourceTree = "<group>"; };
+		26BF228620DCD4A1001DAE93 /* CryptoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoFile.m; sourceTree = "<group>"; };
+		26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorHelper.h; sourceTree = "<group>"; };
+		26BF228820DCD4A1001DAE93 /* RNCryptorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +113,7 @@
 		26456F5F1F766DDD003AEF53 /* FileSystemSDK */ = {
 			isa = PBXGroup;
 			children = (
+				26BF226D20DCD495001DAE93 /* RNCryptor */,
 				26456F791F766E53003AEF53 /* CoreDataStack.framework */,
 				26456F781F766E53003AEF53 /* CoreNetworkStack.framework */,
 				26456F6F1F766E43003AEF53 /* DiskUtility */,
@@ -132,11 +163,41 @@
 		26456F741F766E43003AEF53 /* FileSystem */ = {
 			isa = PBXGroup;
 			children = (
+				26BF228420DCD4A1001DAE93 /* SecureFile */,
 				26456F751F766E43003AEF53 /* File.swift */,
 				26456F761F766E43003AEF53 /* Folder.swift */,
 				26456F771F766E43003AEF53 /* RemoteFile.swift */,
 			);
 			path = FileSystem;
+			sourceTree = "<group>";
+		};
+		26BF226D20DCD495001DAE93 /* RNCryptor */ = {
+			isa = PBXGroup;
+			children = (
+				26BF226E20DCD495001DAE93 /* RNCryptor+Private.h */,
+				26BF226F20DCD495001DAE93 /* RNCryptor+Swift.h */,
+				26BF227020DCD495001DAE93 /* RNCryptor-Prefix.pch */,
+				26BF227120DCD495001DAE93 /* RNCryptor.h */,
+				26BF227220DCD495001DAE93 /* RNCryptor.m */,
+				26BF227320DCD495001DAE93 /* RNCryptorEngine.h */,
+				26BF227420DCD495001DAE93 /* RNCryptorEngine.m */,
+				26BF227520DCD495001DAE93 /* RNDecryptor.h */,
+				26BF227620DCD495001DAE93 /* RNDecryptor.m */,
+				26BF227720DCD495001DAE93 /* RNEncryptor.h */,
+				26BF227820DCD495001DAE93 /* RNEncryptor.m */,
+			);
+			path = RNCryptor;
+			sourceTree = "<group>";
+		};
+		26BF228420DCD4A1001DAE93 /* SecureFile */ = {
+			isa = PBXGroup;
+			children = (
+				26BF228520DCD4A1001DAE93 /* CryptoFile.h */,
+				26BF228620DCD4A1001DAE93 /* CryptoFile.m */,
+				26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */,
+				26BF228820DCD4A1001DAE93 /* RNCryptorHelper.m */,
+			);
+			path = SecureFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +207,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BF228B20DCD4A2001DAE93 /* RNCryptorHelper.h in Headers */,
+				26BF228020DCD495001DAE93 /* RNDecryptor.h in Headers */,
+				26BF228220DCD495001DAE93 /* RNEncryptor.h in Headers */,
+				26BF227E20DCD495001DAE93 /* RNCryptorEngine.h in Headers */,
+				26BF227A20DCD495001DAE93 /* RNCryptor+Swift.h in Headers */,
+				26BF227920DCD495001DAE93 /* RNCryptor+Private.h in Headers */,
 				26456F621F766DDD003AEF53 /* FileSystemSDK.h in Headers */,
+				26BF228920DCD4A2001DAE93 /* CryptoFile.h in Headers */,
+				26BF227B20DCD495001DAE93 /* RNCryptor-Prefix.pch in Headers */,
+				26BF227C20DCD495001DAE93 /* RNCryptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,10 +310,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				26456F7A1F766E6D003AEF53 /* DiskUtility.swift in Sources */,
+				26BF227D20DCD495001DAE93 /* RNCryptor.m in Sources */,
 				26456F7B1F766E6D003AEF53 /* ExportWizard.swift in Sources */,
+				26BF227F20DCD495001DAE93 /* RNCryptorEngine.m in Sources */,
+				26BF228A20DCD4A2001DAE93 /* CryptoFile.m in Sources */,
+				26BF228120DCD495001DAE93 /* RNDecryptor.m in Sources */,
+				26BF228C20DCD4A2001DAE93 /* RNCryptorHelper.m in Sources */,
 				26456F7C1F766E6D003AEF53 /* UTI.swift in Sources */,
 				26456F7D1F766E6D003AEF53 /* File.swift in Sources */,
 				26456F7E1F766E6D003AEF53 /* Folder.swift in Sources */,
+				26BF228320DCD495001DAE93 /* RNEncryptor.m in Sources */,
 				26456F7F1F766E6D003AEF53 /* RemoteFile.swift in Sources */,
 				26456F801F766E6D003AEF53 /* ImportWizard.swift in Sources */,
 			);
@@ -368,6 +444,7 @@
 		26456F661F766DDD003AEF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,13 +452,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FileSystemSDK",
 				);
 				INFOPLIST_FILE = FileSystemSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.FileSystemSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -395,6 +473,7 @@
 		26456F671F766DDD003AEF53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -402,13 +481,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FileSystemSDK",
 				);
 				INFOPLIST_FILE = FileSystemSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.FileSystemSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
