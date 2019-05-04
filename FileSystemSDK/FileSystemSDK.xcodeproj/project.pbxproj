@@ -32,19 +32,19 @@
 		26456F7F1F766E6D003AEF53 /* RemoteFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F771F766E43003AEF53 /* RemoteFile.swift */; };
 		26456F801F766E6D003AEF53 /* ImportWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F6E1F766E43003AEF53 /* ImportWizard.swift */; };
 		26BF227920DCD495001DAE93 /* RNCryptor+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF226E20DCD495001DAE93 /* RNCryptor+Private.h */; };
-		26BF227A20DCD495001DAE93 /* RNCryptor+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF226F20DCD495001DAE93 /* RNCryptor+Swift.h */; };
+		26BF227A20DCD495001DAE93 /* RNCryptor+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF226F20DCD495001DAE93 /* RNCryptor+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF227B20DCD495001DAE93 /* RNCryptor-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227020DCD495001DAE93 /* RNCryptor-Prefix.pch */; };
-		26BF227C20DCD495001DAE93 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227120DCD495001DAE93 /* RNCryptor.h */; };
+		26BF227C20DCD495001DAE93 /* RNCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227120DCD495001DAE93 /* RNCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF227D20DCD495001DAE93 /* RNCryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227220DCD495001DAE93 /* RNCryptor.m */; };
 		26BF227E20DCD495001DAE93 /* RNCryptorEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227320DCD495001DAE93 /* RNCryptorEngine.h */; };
 		26BF227F20DCD495001DAE93 /* RNCryptorEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227420DCD495001DAE93 /* RNCryptorEngine.m */; };
-		26BF228020DCD495001DAE93 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227520DCD495001DAE93 /* RNDecryptor.h */; };
+		26BF228020DCD495001DAE93 /* RNDecryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227520DCD495001DAE93 /* RNDecryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF228120DCD495001DAE93 /* RNDecryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227620DCD495001DAE93 /* RNDecryptor.m */; };
-		26BF228220DCD495001DAE93 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227720DCD495001DAE93 /* RNEncryptor.h */; };
+		26BF228220DCD495001DAE93 /* RNEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF227720DCD495001DAE93 /* RNEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF228320DCD495001DAE93 /* RNEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF227820DCD495001DAE93 /* RNEncryptor.m */; };
 		26BF228920DCD4A2001DAE93 /* CryptoFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF228520DCD4A1001DAE93 /* CryptoFile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF228A20DCD4A2001DAE93 /* CryptoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF228620DCD4A1001DAE93 /* CryptoFile.m */; };
-		26BF228B20DCD4A2001DAE93 /* RNCryptorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */; };
+		26BF228B20DCD4A2001DAE93 /* RNCryptorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF228C20DCD4A2001DAE93 /* RNCryptorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF228820DCD4A1001DAE93 /* RNCryptorHelper.m */; };
 /* End PBXBuildFile section */
 
@@ -210,13 +210,13 @@
 				26BF228B20DCD4A2001DAE93 /* RNCryptorHelper.h in Headers */,
 				26BF228020DCD495001DAE93 /* RNDecryptor.h in Headers */,
 				26BF228220DCD495001DAE93 /* RNEncryptor.h in Headers */,
-				26BF227E20DCD495001DAE93 /* RNCryptorEngine.h in Headers */,
 				26BF227A20DCD495001DAE93 /* RNCryptor+Swift.h in Headers */,
+				26BF227C20DCD495001DAE93 /* RNCryptor.h in Headers */,
+				26BF227E20DCD495001DAE93 /* RNCryptorEngine.h in Headers */,
 				26BF227920DCD495001DAE93 /* RNCryptor+Private.h in Headers */,
 				26456F621F766DDD003AEF53 /* FileSystemSDK.h in Headers */,
 				26BF228920DCD4A2001DAE93 /* CryptoFile.h in Headers */,
 				26BF227B20DCD495001DAE93 /* RNCryptor-Prefix.pch in Headers */,
-				26BF227C20DCD495001DAE93 /* RNCryptor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

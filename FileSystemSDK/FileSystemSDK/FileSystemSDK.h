@@ -16,4 +16,9 @@ FOUNDATION_EXPORT const unsigned char FileSystemSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FileSystemSDK/PublicHeader.h>
 
+#import <FileSystemSDK/RNCryptor.h>
+#import <FileSystemSDK/RNEncryptor.h>
+#import <FileSystemSDK/RNDecryptor.h>
+#import <FileSystemSDK/RNCryptor+Swift.h>
+#import <FileSystemSDK/RNCryptorHelper.h>
 #import <FileSystemSDK/CryptoFile.h>
