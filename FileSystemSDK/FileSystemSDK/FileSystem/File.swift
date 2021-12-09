@@ -100,10 +100,10 @@ open class DocumentMetadata: NGObject, IDocumentMetadata{
     
     open override func serializeValue(_ value: Any!, forKey key: String!) -> Any! {
         if key == "URL"{
-            return URL.path as AnyObject!
+            return URL.path as AnyObject?
         }
         else {
-            return super.serializeValue(value, forKey: key) as AnyObject!
+            return super.serializeValue(value, forKey: key) as AnyObject?
         }
     }
 }
@@ -438,7 +438,7 @@ open class File: NGObject, IFile {
     }
     
     open override func serializeValue(_ value: Any!, forKey key: String!) -> Any! {
-        return super.serializeValue(value, forKey: key) as AnyObject!
+        return super.serializeValue(value, forKey: key) as AnyObject?
     }
     
     override open func updateDate(_ dateStr: String!) -> Date! {

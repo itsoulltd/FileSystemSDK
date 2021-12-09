@@ -48,7 +48,7 @@ open class Folder: NSObject, FileManagerDelegate, IFolder {
         super.init()
         self.searchDirectoryType = searchDirectoryType
         if let root = name{
-            if root.characters.count >= 1{
+            if !root.isEmpty {
                 defaultName = root
             }
         }
@@ -289,7 +289,7 @@ open class Folder: NSObject, FileManagerDelegate, IFolder {
         //
         let onlyName = (oldName as NSString).deletingPathExtension
         let extention = (oldName as NSString).pathExtension
-        if (extention.characters.count > 0){
+        if (!extention.isEmpty){
             var newName = recursivelyResolveChildName(name: onlyName, newName: onlyName, extention: extention)
             newName = "\(newName).\(extention)"
             return newName

@@ -74,7 +74,7 @@ open class RemoteFile: NGObject{
     }
     
     open override func serializeValue(_ value: Any!, forKey key: String!) -> Any! {
-        return super.serializeValue(value, forKey: key) as AnyObject!
+        return super.serializeValue(value, forKey: key) as AnyObject?
     }
     
 }
