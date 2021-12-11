@@ -301,7 +301,7 @@ open class File: NGObject, IFile {
             let readHandler = try FileHandle(forReadingFrom: readfile.URL)
             readHandler.seek(toFileOffset: 0)
             if (readError != nil){
-                print("File Error -> \(readError?.debugDescription)")
+                print("File Error -> \(String(describing: readError?.debugDescription))")
                 endResult = false
             }
             
@@ -311,7 +311,7 @@ open class File: NGObject, IFile {
                     let writeHandler = try FileHandle(forWritingTo: self.URL)
                     writeHandler.seek(toFileOffset: 0)
                     if (writeError != nil){
-                        print("File Error -> \(writeError?.debugDescription)")
+                        print("File Error -> \(String(describing: writeError?.debugDescription))")
                         endResult = false
                     }
                     var buffer = readHandler.readData(ofLength: bufferSize)
@@ -382,7 +382,7 @@ open class File: NGObject, IFile {
             } catch let error1 as NSError {
                 error = error1
                 result = false
-                (error != nil) ? print("file delete -> \(error?.debugDescription)") : print("\(name) deleted")
+                (error != nil) ? print("file delete -> \(String(describing: error?.debugDescription))") : print("\(name) deleted")
             } catch{
                 print("Error in \(#function) at line \(#line)")
             }
@@ -405,7 +405,7 @@ open class File: NGObject, IFile {
             } catch let error1 as NSError {
                 error = error1
                 result = false
-                (error != nil) ? print("file delete -> \(error?.debugDescription)") : print("\(oldName) rename to \(name)")
+                (error != nil) ? print("file delete -> \(String(describing: error?.debugDescription))") : print("\(oldName) rename to \(name)")
             } catch{
                 print("Error in \(#function) at line \(#line)")
             }
@@ -472,7 +472,7 @@ extension File: ISecureFile{
             let readHandler = try FileHandle(forReadingFrom: URL)
             readHandler.seek(toFileOffset: 0)
             if (readError != nil){
-                print("File Error -> \(readError?.debugDescription)")
+                print("File Error -> \(String(describing: readError?.debugDescription))")
                 return endResult as Data
             }
             var buffer = readHandler.readData(ofLength: size)

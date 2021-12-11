@@ -60,9 +60,9 @@ open class RemoteFile: NGObject{
                 let info: NSDictionary = (value as! NSDictionary)
                 let allKeys = info.allKeys as NSArray
                 if allKeys.contains("localFileURL"){
-                    request = HttpFileRequest(info: info as! [AnyHashable: Any])
+                    request = HttpFileRequest(info: info as? [AnyHashable: Any])
                 }else{
-                    request = HttpWebRequest(info: info as! [AnyHashable: Any])
+                    request = HttpWebRequest(info: info as? [AnyHashable: Any])
                 }
             }else{
                 super.updateValue(value, forKey: key)

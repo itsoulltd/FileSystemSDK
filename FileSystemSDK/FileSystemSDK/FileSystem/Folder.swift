@@ -60,7 +60,7 @@ open class Folder: NSObject, FileManagerDelegate, IFolder {
         let currentPath = path()
         if fileManager.fileExists(atPath: currentPath! as String) == false{
             do{
-                try fileManager.createDirectory(atPath: currentPath as! String, withIntermediateDirectories: true, attributes: nil)
+                try fileManager.createDirectory(atPath: currentPath! as String, withIntermediateDirectories: true, attributes: nil)
                 messageLogger("createRootDirectoryIfNotExist", message: "\(defaultName) is created")
             } catch let error as NSError{
                 errorLogger("createRootDirectoryIfNotExist", error: error)
@@ -402,7 +402,7 @@ open class Folder: NSObject, FileManagerDelegate, IFolder {
     open override func isEqual(_ object: Any?) -> Bool {
         if object is IFolder {
             if let target: IFolder = object as? IFolder{
-                let equal = self.path()!.isEqual(to: (target.path() as? String)!)
+                let equal = self.path()!.isEqual(to: target.path()! as String)
                 return equal
             }
         }
@@ -533,7 +533,7 @@ open class Folder: NSObject, FileManagerDelegate, IFolder {
         if isExist.exist{
             let isRemoved = removeFrom(isExist.path! as String)
             if isRemoved{
-                messageLogger("delete", message: "\(fileName) deleted")
+                messageLogger("delete", message: "\(String(describing: fileName)) deleted")
             }
             return isRemoved
         }
