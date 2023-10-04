@@ -22,8 +22,6 @@
 
 /* Begin PBXBuildFile section */
 		26456F621F766DDD003AEF53 /* FileSystemSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456F601F766DDD003AEF53 /* FileSystemSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26456F6B1F766E16003AEF53 /* CoreDataStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26456F691F766E16003AEF53 /* CoreDataStack.framework */; };
-		26456F6C1F766E16003AEF53 /* CoreNetworkStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26456F6A1F766E16003AEF53 /* CoreNetworkStack.framework */; };
 		26456F7A1F766E6D003AEF53 /* DiskUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F701F766E43003AEF53 /* DiskUtility.swift */; };
 		26456F7B1F766E6D003AEF53 /* ExportWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F721F766E43003AEF53 /* ExportWizard.swift */; };
 		26456F7C1F766E6D003AEF53 /* UTI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26456F731F766E43003AEF53 /* UTI.swift */; };
@@ -46,14 +44,14 @@
 		26BF228A20DCD4A2001DAE93 /* CryptoFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF228620DCD4A1001DAE93 /* CryptoFile.m */; };
 		26BF228B20DCD4A2001DAE93 /* RNCryptorHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26BF228C20DCD4A2001DAE93 /* RNCryptorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 26BF228820DCD4A1001DAE93 /* RNCryptorHelper.m */; };
+		26D7CC9A2ACE1A590071FC84 /* CoreDataStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D7CC992ACE1A590071FC84 /* CoreDataStack.framework */; };
+		26D7CC9C2ACE1A670071FC84 /* CoreNetworkStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D7CC9B2ACE1A670071FC84 /* CoreNetworkStack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26456F5D1F766DDD003AEF53 /* FileSystemSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FileSystemSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26456F601F766DDD003AEF53 /* FileSystemSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FileSystemSDK.h; sourceTree = "<group>"; };
 		26456F611F766DDD003AEF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26456F691F766E16003AEF53 /* CoreDataStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreDataStack.framework; path = FileSystemSDK/CoreDataStack.framework; sourceTree = "<group>"; };
-		26456F6A1F766E16003AEF53 /* CoreNetworkStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNetworkStack.framework; path = FileSystemSDK/CoreNetworkStack.framework; sourceTree = "<group>"; };
 		26456F6E1F766E43003AEF53 /* ImportWizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportWizard.swift; sourceTree = "<group>"; };
 		26456F701F766E43003AEF53 /* DiskUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskUtility.swift; sourceTree = "<group>"; };
 		26456F721F766E43003AEF53 /* ExportWizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportWizard.swift; sourceTree = "<group>"; };
@@ -61,8 +59,6 @@
 		26456F751F766E43003AEF53 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		26456F761F766E43003AEF53 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
 		26456F771F766E43003AEF53 /* RemoteFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFile.swift; sourceTree = "<group>"; };
-		26456F781F766E53003AEF53 /* CoreNetworkStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreNetworkStack.framework; sourceTree = "<group>"; };
-		26456F791F766E53003AEF53 /* CoreDataStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataStack.framework; sourceTree = "<group>"; };
 		26BF226E20DCD495001DAE93 /* RNCryptor+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Private.h"; sourceTree = "<group>"; };
 		26BF226F20DCD495001DAE93 /* RNCryptor+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor+Swift.h"; sourceTree = "<group>"; };
 		26BF227020DCD495001DAE93 /* RNCryptor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCryptor-Prefix.pch"; sourceTree = "<group>"; };
@@ -78,6 +74,8 @@
 		26BF228620DCD4A1001DAE93 /* CryptoFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptoFile.m; sourceTree = "<group>"; };
 		26BF228720DCD4A1001DAE93 /* RNCryptorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNCryptorHelper.h; sourceTree = "<group>"; };
 		26BF228820DCD4A1001DAE93 /* RNCryptorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCryptorHelper.m; sourceTree = "<group>"; };
+		26D7CC992ACE1A590071FC84 /* CoreDataStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreDataStack.framework; sourceTree = "<group>"; };
+		26D7CC9B2ACE1A670071FC84 /* CoreNetworkStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreNetworkStack.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26456F6B1F766E16003AEF53 /* CoreDataStack.framework in Frameworks */,
-				26456F6C1F766E16003AEF53 /* CoreNetworkStack.framework in Frameworks */,
+				26D7CC9A2ACE1A590071FC84 /* CoreDataStack.framework in Frameworks */,
+				26D7CC9C2ACE1A670071FC84 /* CoreNetworkStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,8 +111,6 @@
 		26456F5F1F766DDD003AEF53 /* FileSystemSDK */ = {
 			isa = PBXGroup;
 			children = (
-				26456F791F766E53003AEF53 /* CoreDataStack.framework */,
-				26456F781F766E53003AEF53 /* CoreNetworkStack.framework */,
 				26456F6F1F766E43003AEF53 /* DiskUtility */,
 				26456F711F766E43003AEF53 /* ExportUtility */,
 				26456F741F766E43003AEF53 /* FileSystem */,
@@ -128,8 +124,8 @@
 		26456F681F766E16003AEF53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				26456F691F766E16003AEF53 /* CoreDataStack.framework */,
-				26456F6A1F766E16003AEF53 /* CoreNetworkStack.framework */,
+				26D7CC992ACE1A590071FC84 /* CoreDataStack.framework */,
+				26D7CC9B2ACE1A670071FC84 /* CoreNetworkStack.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -301,7 +297,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"FileSystemSDK\"\n\n#Here we create default directory structure on desktop if not exist\nmkdir -p \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild\"\nmkdir -p \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/Release\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Debug -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Debug -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework\"\nfi\n#Remove release build also\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/Release/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/Release/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to Desktop.\ncp -r \"${SRCROOT}/build/Debug-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/Release/${FRAMEWORK_NAME}.framework\"\n\ncp -r \"${SRCROOT}/build/Debug-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Debug-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Debug-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\ncp -r \"${SRCROOT}/build/Debug-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Desktop/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n";
+			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"FileSystemSDK\"\n\n#Here we create default directory structure on desktop if not exist\nmkdir -p \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild\"\nmkdir -p \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/Release\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Debug -arch arm64 only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Debug -arch x86_64 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on target-dir from previous run.\nif [ -d \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework\"\nfi\n#Remove release build also\n# Remove .framework file if exists on target from previous run.\nif [ -d \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/Release/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/Release/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to target.\ncp -r \"${SRCROOT}/build/Debug-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/Release/${FRAMEWORK_NAME}.framework\"\n\ncp -r \"${SRCROOT}/build/Debug-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Debug-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Debug-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\ncp -r \"${SRCROOT}/build/Debug-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Downloads/NextGenBuilds/${FRAMEWORK_NAME}/FatBuild/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -449,7 +445,7 @@
 		26456F661F766DDD003AEF53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -461,10 +457,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FileSystemSDK",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FileSystemSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.FileSystemSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -478,7 +475,7 @@
 		26456F671F766DDD003AEF53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -490,10 +487,11 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FileSystemSDK",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = FileSystemSDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift.FileSystemSDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -507,6 +505,7 @@
 		26A1E4291FC80720003F069E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M622GQ77LE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +515,7 @@
 		26A1E42A1FC80720003F069E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M622GQ77LE;
 				PRODUCT_NAME = "$(TARGET_NAME)";
