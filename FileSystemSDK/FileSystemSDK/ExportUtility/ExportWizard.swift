@@ -38,11 +38,11 @@ open class ExportWizard: NSObject, UIDocumentInteractionControllerDelegate, Expo
     
     open func documentInteractionController(_ controller: UIDocumentInteractionController, willBeginSendingToApplication application: String?) {
         //
-        print("WillBeginSending \(application)")
+        print("WillBeginSending \(String(describing: application))")
     }
     
     open func documentInteractionController(_ controller: UIDocumentInteractionController, didEndSendingToApplication application: String?) {
         //
-        print("DidEndSending \(application)")
+        print("DidEndSending \(String(describing: application))")
     }
 }
